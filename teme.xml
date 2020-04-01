@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <tema ID="11">
+        <Descriere>Tema1</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
+    </tema>
+    <tema ID=" ">
+        <Descriere>Tema1</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
+    </tema>
     <tema ID="1">
         <Descriere>File</Descriere>
         <Deadline>7</Deadline>
@@ -14,5 +24,15 @@
         <Descriere>gui</Descriere>
         <Deadline>9</Deadline>
         <Startline>7</Startline>
+    </tema>
+    <tema ID="5">
+        <Descriere>test</Descriere>
+        <Deadline>7</Deadline>
+        <Startline>5</Startline>
+    </tema>
+    <tema ID="6">
+        <Descriere>Tema1</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
     </tema>
 </Entitati>

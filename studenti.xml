@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="55">
+        <Nume>Bob</Nume>
+        <Grupa>935</Grupa>
+    </student>
     <student ID="100">
         <Nume>Popescu</Nume>
         <Grupa>922</Grupa>
+    </student>
+    <student ID="23">
+        <Nume>Samantha</Nume>
+        <Grupa>937</Grupa>
     </student>
     <student ID="2">
         <Nume>Mihai</Nume>
