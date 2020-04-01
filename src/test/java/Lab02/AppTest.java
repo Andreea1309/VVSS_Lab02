@@ -61,7 +61,15 @@ public class AppTest
     @Test
     public void testAddTemaNullId() {
 
-        assertFalse(service.saveTema("", "Tema1", 2, 1) == 0);
+
+        try{
+            service.saveTema("", "Tema", 2,1);
+        }
+        catch(Exception e){
+            assertEquals(e.getMessage(),"Tema invalida!");
+        }
+
+
 
     }
 
