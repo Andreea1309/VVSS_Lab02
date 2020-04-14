@@ -5,6 +5,7 @@ import repository.*;
 
 import java.time.LocalDate;
 import java.time.temporal.WeekFields;
+import java.util.Iterator;
 import java.util.Locale;
 
 public class Service {
@@ -23,6 +24,27 @@ public class Service {
     public Iterable<Tema> findAllTeme() { return temaXmlRepo.findAll(); }
 
     public Iterable<Nota> findAllNote() { return notaXmlRepo.findAll(); }
+
+    public int getNumberOfTeme() {
+        int len = 0;
+        Iterator iterator = this.findAllTeme().iterator();
+        while (iterator.hasNext()) {
+            len++;
+            iterator.next();
+        }
+        return len;
+    }
+
+    public int getNumberOfStudents() {
+        int len = 0;
+        Iterator iterator = this.findAllStudents().iterator();
+        while (iterator.hasNext()) {
+            len++;
+            iterator.next();
+        }
+        return len;
+    }
+
 
     public int saveStudent(String id, String nume, int grupa) {
         Student student = new Student(id, nume, grupa);
